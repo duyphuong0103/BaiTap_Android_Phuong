@@ -60,10 +60,7 @@
         android:layout_gravity="left"
         android:text="Ghi nhớ mật khẩu"
         android:textSize="15sp"
-        android:textColor="#7d7a7a"
-        android:button="@drawable/ic_custom_checkbox"
-        />
-
+        android:textColor="#7d7a7a"/>
     <Button
         android:id="@+id/login"
         android:layout_width="match_parent"
@@ -75,7 +72,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Chưa có tài khoản? Đăng ký ngay"/>
+        android:text="Chưa có tài khoản? Đăng ký ngay"
+        android:textSize="15sp"/>
     <Button
         android:id="@+id/register"
         android:layout_width="match_parent"

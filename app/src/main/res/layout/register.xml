@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="#fcfcfc">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="30dp">
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/logoflower"
+            android:layout_marginEnd="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Diiph Florist"
+            android:textStyle="italic"
+            android:textSize="28sp"
+            android:textColor="#f25f3a"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Đăng ký tài khoản"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#1e1e1f"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/dkuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:drawableStart="@drawable/ic_userregister"
+        android:drawablePadding="10dp"
+        android:hint="Ho ten"
+        android:layout_marginBottom="15dp"
+        android:textColorHint="#bfbfbd"
+        />
+    <EditText
+        android:id="@+id/dkemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:drawableStart="@drawable/ic_user"
+        android:drawablePadding="10dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="15dp"
+        android:textColorHint="#bfbfbd"
+        />
+    <EditText
+        android:id="@+id/dkpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:drawableStart="@drawable/ic_pass"
+        android:drawablePadding="10dp"
+        android:hint="Mat khau"
+        android:inputType="textPassword"
+        android:layout_marginBottom="15dp"
+        android:textColorHint="#bfbfbd"
+        />
+    <EditText
+        android:id="@+id/cfpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:drawableStart="@drawable/ic_pass"
+        android:drawablePadding="10dp"
+        android:hint="Xac nhan mat khau"
+        android:inputType="textPassword"
+        android:layout_marginBottom="15dp"
+        android:textColorHint="#bfbfbd"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chấp nhận điều khoản"
+        android:textSize="16sp"
+        android:textColor="#575759"
+        android:layout_gravity="left"
+        />
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Đăng ký"
+        android:textSize="16dp"
+        android:backgroundTint="#1e1e1f"/>
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#575759"
+        android:text="Bạn có tài khoản? Đăng nhập ngay"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"/>
+</LinearLayout>
