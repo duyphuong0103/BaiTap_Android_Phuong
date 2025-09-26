@@ -96,7 +96,7 @@
         android:layout_marginTop="20dp"
         android:text="Đăng ký"
         android:textSize="16dp"
-        android:backgroundTint="#1e1e1f"/>
+        android:backgroundTint="#f54e4e"/>
     <TextView
         android:id="@+id/login"
         android:layout_width="wrap_content"
