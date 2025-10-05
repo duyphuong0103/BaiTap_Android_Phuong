@@ -17,7 +17,6 @@ public class RegisterActivity extends AppCompatActivity {
         txtLogin.setOnClickListener(v->{
             Intent intent = new Intent(RegisterActivity.this, MainActivity.class);
             startActivity(intent);
-            finish();
         });
     }
 }

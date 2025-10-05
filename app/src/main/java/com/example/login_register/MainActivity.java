@@ -12,11 +12,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.login);
-
-        Button changeRegister= findViewById(R.id.register);
+        Button changeRegister, btnLogin;
+        changeRegister= findViewById(R.id.register);
+        btnLogin = findViewById(R.id.login);
         changeRegister.setOnClickListener(v->{
-            Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
-            startActivity(intent);
+            Intent intentRegister = new Intent(MainActivity.this, RegisterActivity.class);
+            startActivity(intentRegister);
+        });
+        btnLogin.setOnClickListener(v->{
+            Intent intentLogin = new Intent(MainActivity.this, ProfileActivity.class);
+            startActivity(intentLogin);
         });
         }
 }
